@@ -73,17 +73,17 @@ for (let o = 0; o < story7.length; o++) {
 console.log("[Question #7]: ", storyString7); // Answer should be:
 
 // Question 8: Create an acronym from the phrase "In The Beginning".
-let phrase8 = "In The Beginning";
+let phrase8 = "In the beginning";
 let acronym8 = "";
 for (let p = 0; p < phrase8.length; p++) {
   if (p === 0) {
-    acronym8 += phrase8[0].toUpperCase();
+    acronym8 += phrase8[0];
   }
   if (phrase8[p] === " ") {
-    acronym8 += phrase8[p + 1].toUpperCase();
+    acronym8 += phrase8[p + 1];
   }
 }
-console.log("[Question #8]: ", acronym8); // Answer should be:
+console.log("[Question #8]: ", acronym8.toUpperCase()); // Answer should be:
 
 // Question 9: Convert the string "Noah" to uppercase.
 let name9 = "Noah";
@@ -183,13 +183,13 @@ let phrase18 = "Garden Of eden";
 let acronym18 = "";
 for (let z = 0; z < phrase18.length; z++) {
   if (z === 0) {
-    acronym18 += phrase18[0].toUpperCase();
+    acronym18 += phrase18[0];
   }
   if (phrase18[z] === " ") {
-    acronym18 += phrase18[z + 1].toUpperCase();
+    acronym18 += phrase18[z + 1];
   }
 }
-console.log("[Question #18]: ", acronym18); // Answer should be:
+console.log("[Question #18]: ", acronym18.toUpperCase()); // Answer should be:
 
 // Question 19: Convert the string "Canaan" to lowercase.
 let name19 = "Canaan";
